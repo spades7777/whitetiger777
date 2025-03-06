@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial with Images</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            background-color: #1e293b;
+            color: #f7df05dc;
+            padding: 20px;
+        }
+        .step-header {
+            cursor: pointer;
+            font-size: 1.25rem;
+            font-weight: bold;
+            padding: 10px 15px;
+            background-color: #475569;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .step-content {
+            display: none;
+            padding: 15px;
+            background-color: #1a1f27;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+        .step-content img {
+            max-width: 50%;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mx-auto max-w-3xl">
+        <h1 class="text-center text-3xl font-bold text-yellow-400 mb-6">Getting Started with USDT<br>BY WHITE TIGER GAMING</h1>
+
+        <!-- Step-by-step guide -->
+        <div id="steps">
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(1)">
+                    Step 1: Download the Trust Wallet App
+                    <span>+</span>
+                </div>
+                <div id="step-1" class="step-content">
+                    <img src="wallet1.jpg" alt="Step 1 Image">
+                    <p>Download the trust wallet from PlayStore (Android) or App Store (iPhone).</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(2)">
+                    Step 2: Open the App and Click "Get Started"
+                    <span>+</span>
+                </div>
+                <div id="step-2" class="step-content">
+                    <img src="wallet2.jpg" alt="Step 2 Image">
+                    <p>Open the app and click "Get Started".</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(3)">
+                    Step 3: Create a New Wallet by pressing "Create"
+                    <span>+</span>
+                </div>
+                <div id="step-3" class="step-content">
+                    <img src="wallet3.jpg" alt="Step 3 Image">
+                    <p>Create a New Wallet by pressing "Create".</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(4)">
+                    Step 4: Backup Your Wallet
+                    <span>+</span>
+                </div>
+                <div id="step-4" class="step-content">
+                    <img src="wallet4.jpg" alt="Step 4 Image">
+                    <p>Press Backup to Google Drive to keep it safe on your google. You can also Back Up manually with 12 secret phrase.</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(5)">
+                    Step 5: Google Backup
+                    <span>+</span>
+                </div>
+                <div id="step-5" class="step-content">
+                    <img src="wallet5.jpg" alt="Step 5 Image">
+                    <p>It may ask for Google Login to backup, Please proceed with it and Press "Continue"</p>
+                </div>
+            </div>
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(6)">
+                    Step 6: Start Using Trust Wallet
+                    <span>+</span>
+                </div>
+
+                <div id="step-6" class="step-content">
+                    <img src="wallet6.jpg" alt="Step 6 Image">
+                    <p>Click on: "Start Using Trust Wallet"</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(7)">
+                    Step 7: Manage Crypto 
+                    <span>+</span>
+                </div>
+                <div id="step-7" class="step-content">
+                    <img src="wallet7.jpg" alt="Step 7 Image">
+                    <p>On Home, Click on "Manage Crypto"</p>
+                </div>
+            </div>
+
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(8)">
+                    Step 8: Uncheck Unused Cryptos
+                    <span>+</span>
+                </div>
+                <div id="step-8" class="step-content">
+                    <img src="wallet8.jpg" alt="Step 8 Image">
+                    <p>Uncheck all these boxes unless you're using these.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(9)">
+                    Step 9: Add Tron (TRX) 
+                    <span>+</span>
+                </div>
+                <div id="step-9" class="step-content">
+                    <img src="wallet9.jpg" alt="Step 9 Image">
+                    <p>Search for "tron" and add the following TRX.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(10)">
+                    Step 10: Enable USDT 
+                    <span>+</span>
+                </div>
+                <div id="step-10" class="step-content">
+                    <img src="wallet10.jpg" alt="Step 10 Image">
+                    <p>Turn on the Tron based Tether USDT as shown in the picture<br>NOTE: Be absolutely sure to pick the current crypto as sending and receiving to wrong crypto will lose all coins.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(11)">
+                    Step 11: View Your Home Menu
+                    <span>+</span>
+                </div>
+                <div id="step-11" class="step-content">
+                    <img src="wallet11.jpg" alt="Step 11 Image">
+                    <p>Your Home Menu should look like this:<br>Here, we use USDT for payments and TRX is used for the fees. You can also see the options to: Send, Receive, Buy, Sell and History.<br> <br>While we only do Sending and Receiving these cryptos, You have the option to buy and sell them on the platform as well. To buy and sell, The wallet will ask for your personal informations and payment details for regulatory purposes.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(12)">
+                    Step 12: How to Buy USDT? 
+                    <span>+</span>
+                </div>
+                <div id="step-12" class="step-content">
+                    <img src="wallet12.jpg" alt="Step 12 Image">
+                    <p>How to Buy USDT?<br>Step 1: Click on the Buy Option.<br>Step 2: Enter the amount and select the Payment method and platform to buy from.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(13)">
+                    Step 13: Buying Example
+                    <span>+</span>
+                </div>
+                <div id="step-13" class="step-content">
+                    <img src="wallet13.jpg" alt="Step 13 Image">
+                    <p>This is the example of buying $150 USDT from MoonPay with Google Pay. You may choose debit card or bank as payment method from the option.<br>Proceeding here will ask for your personal and payment details.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(14)">
+                    Step 14: Sample View 
+                    <span>+</span>
+                </div>
+                <div id="step-14" class="step-content">
+                    <img src="wallet14.jpg" alt="Step 14 Image">
+                    <p></p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(15)">
+                    Step 15: Proceed with Cookies
+                    <span>+</span>
+                </div>
+                <div id="step-15" class="step-content">
+                    <img src="wallet15.jpg" alt="Step 15 Image">
+                    <p>Accept the cookies and proceed with Tether TRC-20.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(16)">
+                    Step 16: Sending & Receiving USDT 
+                    <span>+</span>
+                </div>
+                <div id="step-16" class="step-content">
+                    <img src="wallet16.jpg" alt="Step 16 Image">
+                    <p>How to Send and Receive USDT:<br>Step 1: Goto Home Menu and click on USDT.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(17)">
+                    Step 17: Transaction Confirmation
+                    <span>+</span>
+                </div>
+                <div id="step-17" class="step-content">
+                    <img src="wallet17.jpg" alt="Step 17 Image">
+                    <p>Step 2: Paste the address given to you or scan the QR. Set the amount and Proceed with Next.<br>Next window will show you the details and once confirmed, click on "Confirm". That will show you the transaction status. It must show completed under 10 seconds.<br><br>NOTE: Receiving works the same way, send us your address and we will pay you instantly.</p>
+                </div>
+            </div>
+            
+            <div class="step">
+                <div class="step-header" onclick="toggleStep(18)">
+                    Step 18: Receive USDT 
+                    <span>+</span>
+                </div>
+                <div id="step-18" class="step-content">
+                    <img src="wallet18.jpg" alt="Step 18 Image">
+                    <p>Receive USDT from us by simply sending the address below. Click on copy and paste it to us.</p>
+                </div>
+            </div>             
+
+
+            <!-- Add other steps here following the same format -->
+        </div>
+
+        <!-- Navigation buttons -->
+        <div class="flex justify-between mt-6">
+            <button id="prev-btn" class="bg-yellow-500 text-black px-4 py-2 rounded shadow-md" disabled onclick="prevStep()">Previous</button>
+            <button id="next-btn" class="bg-yellow-500 text-black px-4 py-2 rounded shadow-md" onclick="nextStep()">Next</button>
+        </div>
+    </div>
+
+    <script>
+        let currentStep = 1;
+        const totalSteps = document.querySelectorAll('.step').length;
+
+        function toggleStep(step) {
+            const content = document.getElementById(`step-${step}`);
+            const icon = content.previousElementSibling.querySelector('span');
+
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+                icon.textContent = '+';
+            } else {
+                content.style.display = 'block';
+                icon.textContent = '-';
+            }
+        }
+
+        function updateNavigation() {
+            document.getElementById('prev-btn').disabled = currentStep === 1;
+            document.getElementById('next-btn').disabled = currentStep === totalSteps;
+        }
+
+        function nextStep() {
+            document.getElementById(`step-${currentStep}`).style.display = 'none';
+            currentStep++;
+            document.getElementById(`step-${currentStep}`).style.display = 'block';
+            updateNavigation();
+        }
+
+        function prevStep() {
+            document.getElementById(`step-${currentStep}`).style.display = 'none';
+            currentStep--;
+            document.getElementById(`step-${currentStep}`).style.display = 'block';
+            updateNavigation();
+        }
+
+        // Initialize by showing the first step
+        document.getElementById('step-1').style.display = 'block';
+    </script>
+</body>
+</html>
